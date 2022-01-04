@@ -7,9 +7,14 @@ A simple hacker news app using for experimental features.
 [![Twitter](https://img.shields.io/badge/Twitter-@jdsdhp-9C27B0.svg)](https://twitter.com/jdsdhp)
 
 ## Screenshots
+
 Splash Screen | Stories Screen | Story Detail Screen
 :-:|:-:|:-:
 ![](art/art-01.jpg) | ![](art/art-02.jpg) | ![](art/art-03.jpg)
+
+## Install
+
+To install the latest version you need to download and install the file: [v0.2.0.apk](https://github.com/jdsdhp/hacker-news-app/releases/download/v0.2.0/hacker-news-v0.2.0.apk)
 
 License
 =======
