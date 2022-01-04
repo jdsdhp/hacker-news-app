@@ -7,7 +7,7 @@ A simple hacker news app using for experimental features.
 [![Twitter](https://img.shields.io/badge/Twitter-@jdsdhp-9C27B0.svg)](https://twitter.com/jdsdhp)
 
 ## Screenshots
-Splash Screen|Stories Screen |Story Detail Screen
+Splash Screen | Stories Screen | Story Detail Screen
 :-:|:-:|:-:
 ![](art/art-01.jpg) | ![](art/art-02.jpg) | ![](art/art-03.jpg)
 
