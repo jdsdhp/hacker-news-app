@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/stories_fragment">
+
+    <fragment
+        android:id="@+id/stories_fragment"
+        android:name="com.jesusd0897.hackernews.ui.fragment.StoriesFragment"
+        tools:layout="@layout/fragment_stories">
+
+        <action
+            android:id="@+id/stories_fragment_to_story_detail_fragment"
+            app:destination="@id/story_detail_fragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/story_detail_fragment"
+        android:name="com.jesusd0897.hackernews.ui.fragment.StoryDetailFragment"
+        tools:layout="@layout/fragment_story_detail">
+
+        <argument
+            android:name="url"
+            app:argType="string"
+            app:nullable="false" />
+
+    </fragment>
+
+</navigation>

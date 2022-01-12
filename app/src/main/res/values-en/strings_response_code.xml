@@ -1,0 +1,29 @@
+<resources>
+    <string name="http_error_default">Algo salió mal. Verifique su conexión de red.</string>
+
+    <string name="http_res_200">La petición se ha completado con éxito.</string>
+    <string name="http_res_201">Se ha creado correctamente el recurso.</string>
+
+    <string name="http_res_400">El servidor no puede procesar la petición.</string>
+    <string name="http_res_401">Sus credenciales no son válidas.</string>
+    <string name="http_res_402">Pago requerido antes completar la acción.</string>
+    <string name="http_res_403">No se permite realizar la acción.</string>
+    <string name="http_res_404">La petición no se ha definido en el servidor.</string>
+    <string name="http_res_405">El método utilizado para esta petición no es permitido.</string>
+    <string name="http_res_406">No se permiten devolver los datos de la forma que ha sido requeridos.</string>
+    <string name="http_res_408">El servidor ha demorado demasiado en responder.</string>
+    <string name="http_res_410">La petición ya no es soportada por servidor. Ha sido eliminada recientemente.</string>
+    <string name="http_res_413">La petición es demasiada extensa y el servidor se niega a responder.</string>
+    <string name="http_res_414">La petición es demasiada extensa y el servidor se niega a responder.</string>
+    <string name="http_res_415">Formato de petición no soportado por el servidor.</string>
+    <string name="http_res_423">El servidor tiene bloqueado el acceso a los datos que han sido solicitados.</string>
+    <string name="http_res_429">El servidor está ocupado en estos momentos. Inténtelo más tarde.</string>
+
+    <string name="http_res_500">Se ha producido un error interno en el servidor.</string>
+    <string name="http_res_501">El servidor no soporta la acción solicitada.</string>
+    <string name="http_res_502">Se ha producido un error externo en el servidor, por lo que no se puede responder adecuadamente.</string>
+    <string name="http_res_503">El servidor no se encuentra en funcionamiento. Quizás debido a tareas de mantenimiento.</string>
+    <string name="http_res_504">Uno de los servidores externos ha demorado demasiado en responder.</string>
+    <string name="http_res_505">El servidor no es compatible con el protocolo HTTP utilizado para esta petición.</string>
+
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.App" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="android:statusBarColor">@color/colorSurface</item>
+
+        <!--App Colors-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorError">@color/colorError</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+
+        <!--On Colors-->
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <item name="colorOnPrimarySurface">@color/colorOnPrimarySurface</item>
+
+        <!--Component-->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.LargeComponent</item>
+        <item name="textInputStyle">@style/textInputStyle</item>
+        <item name="autoCompleteTextViewStyle">@style/dropdownTextViewStyle</item>
+        <item name="materialCardViewStyle">@style/materialCardViewStyle</item>
+        <item name="actionBarStyle">@style/actionBarStyle</item>
+        <item name="tabStyle">@style/tabStyle</item>
+
+        <!--Sheets-->
+        <item name="sheetsTextInputLayoutCornerRadius">@dimen/dim_corner_radius_small</item>
+
+    </style>
+
+    <style name="Theme.App" parent="Base.Theme.App">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="actionBarStyle" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="titleTextAppearance">@style/TextAppearance.Toolbar.Text</item>
+    </style>
+
+    <style name="TextAppearance.Toolbar.Text" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Toolbar-->
+    <style name="Toolbar.BackAction" parent="Widget.MaterialComponents.Toolbar.Surface">
+        <item name="navigationIcon">@drawable/ic_angle_left</item>
+    </style>
+
+    <style name="Toolbar" parent="Widget.MaterialComponents.Toolbar.Surface" />
+
+    <!--TabLayout-->
+    <style name="tabStyle" parent="Widget.MaterialComponents.TabLayout">
+        <item name="android:textSize">@dimen/dim_text_very_small</item>
+    </style>
+
+    <!--Card-->
+    <style name="materialCardViewStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">@dimen/dim_card_elevation</item>
+    </style>
+
+    <!--Component-->
+    <style name="ShapeAppearance.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/dim_card_corner_radius</item>
+    </style>
+
+    <style name="ShapeAppearance.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/dim_card_corner_radius</item>
+    </style>
+
+    <style name="ShapeAppearance.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/dim_card_corner_radius</item>
+    </style>
+
+    <!--TextInputLayout-->
+    <style name="textInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusBottomStart">@dimen/dim_corner_radius_small</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/dim_corner_radius_small</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/dim_corner_radius_small</item>
+        <item name="boxCornerRadiusTopStart">@dimen/dim_corner_radius_small</item>
+    </style>
+
+    <style name="dropdownTextViewStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxCornerRadiusBottomStart">@dimen/dim_corner_radius_small</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/dim_corner_radius_small</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/dim_corner_radius_small</item>
+        <item name="boxCornerRadiusTopStart">@dimen/dim_corner_radius_small</item>
+    </style>
+
+    <style name="CircleImageView.Overlay" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>

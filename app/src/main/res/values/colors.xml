@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--App Colors-->
+    <color name="colorPrimary">#1F1F1F</color>
+    <color name="colorPrimaryVariant">#1F1F1F</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorSecondary">#2E2E2E</color>
+    <color name="colorSecondaryVariant">#2E2E2E</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorError">#F44336</color>
+    <color name="colorControlNormal">#EAEAEA</color>
+
+    <!--On Colors-->
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorOnSurface">#000000</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorOnPrimarySurface">#FFFFFF</color>
+    <color name="colorOnError">#FFFFFF</color>
+
+    <!--Notification-->
+    <color name="color_notification_info">#3F51B5</color>
+    <color name="color_notification_confirmation">#4CAF50</color>
+    <color name="color_notification_alert">#F44336</color>
+    <color name="color_notification_warning">#FF9800</color>
+
+</resources>

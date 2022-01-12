@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.App" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@color/colorSurface</item>
+
+        <!--App Colors-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorError">@color/colorError</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+
+        <!--On Colors-->
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <item name="colorOnPrimarySurface">@color/colorOnPrimarySurface</item>
+
+        <!--Component-->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.LargeComponent</item>
+        <item name="textInputStyle">@style/textInputStyle</item>
+        <item name="autoCompleteTextViewStyle">@style/dropdownTextViewStyle</item>
+        <item name="materialCardViewStyle">@style/materialCardViewStyle</item>
+        <item name="actionBarStyle">@style/actionBarStyle</item>
+        <item name="tabStyle">@style/tabStyle</item>
+
+        <!--Sheets-->
+        <item name="sheetsTextInputLayoutCornerRadius">@dimen/dim_corner_radius_small</item>
+
+    </style>
+</resources>

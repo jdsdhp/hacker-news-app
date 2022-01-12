@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="accept">Aceptar</string>
+    <string name="error">Error</string>
+    <string name="loading">Cargando…</string>
+    <string name="no_data_to_show">No se encuentran datos para mostrar.</string>
+    <string name="delete">Eliminar</string>
+    <string name="item_deleted">Elemento eliminado.</string>
+    <string name="information">Información</string>
+
+</resources>
